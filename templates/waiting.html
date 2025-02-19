@@ -19,9 +19,9 @@
         </p>
     </div>
     <script>
-        var STATUS_URL = "{{ url_for('status') }}";
         var GENERATED_URL = "{{ url_for('generated') }}";
         var ERROR_URL = "{{ url_for('error') }}";
+        var PROCESSID = "{{process_id}}";
     </script>
     <script src="{{ url_for('static', filename='js/poll.js') }}"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
