@@ -1,4 +1,4 @@
-const STATUS_URL = "http://localhost:8000/status?process_id=" + PROCESSID;
+const STATUS_URL = "http://13.64.211.233/status?process_id=" + PROCESSID;
 console.log(STATUS_URL);
 let poll_count = 0;
 const maxPolls = 20;
