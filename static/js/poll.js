@@ -18,8 +18,9 @@ const pollStatus = () => {
             }
         })
         .catch(err => {
+            console.log(err);
             let errorCode = err.code || 0;
-            window.location.href = ERROR_URL + "?code=" + errorCode;
+            // window.location.href = ERROR_URL + "?code=" + errorCode;
         });
 };
 pollStatus();
